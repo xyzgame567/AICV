@@ -16,6 +16,7 @@ print(label)
 
 plt.scatter(x[:,0],x[:,1], c=label, cmap='rainbow')
 plt.scatter(kmean.cluster_centers_[:,0], kmean.cluster_centers_[:,1], color='black', marker='X', label="centroid")
+
 plt.xlabel("Anual Income")
 plt.ylabel("Spending Score")
 plt.legend()
